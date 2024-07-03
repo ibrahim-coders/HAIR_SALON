@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @layer components{
+   .btn-1{
+  @apply bg-sky-800 text-4xl text-black;
+ }
+ .bx-menu{
+  @apply w-6 h-6 text-green-600
+ }
+ }
